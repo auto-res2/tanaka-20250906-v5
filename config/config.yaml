@@ -1,0 +1,30 @@
+# config/config.yaml – list of experiments.  Add/remove entries as you need.
+experiments:
+  - name: demo_autoslim
+    variant: autoslim
+    seed: 0
+    dataset_name: slimpajama
+    dataset_url: https://huggingface.co/datasets/cerebras/SlimPajama-627B
+    max_tokens: 1000000            # small number for smoke-test
+    max_pflops: 0.1
+    model_url: https://huggingface.co/kimihailv/llama-1.3B
+    start_n_layers: 12
+    d_model: 2048
+    n_heads: 32
+    vocab_size: 32000
+    max_seq_len: 2048
+    ctrl_interval_tokens: 2000000
+    optim:
+      peak_lr: 2.4e-4
+      warmup_steps: 3750
+      weight_decay: 0.1
+      beta1: 0.9
+      beta2: 0.95
+      eps: 1e-8
+    ppo:
+      clip: 0.2
+      gamma: 0.99
+      gae_lambda: 0.95
+      batch_env_steps: 2048
+      sgd_epochs: 3
+      temperature: 1.0

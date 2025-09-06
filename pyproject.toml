@@ -1,1 +1,31 @@
-# Please list the required python packages.
+[project]
+name = "autoslim_llm"
+version = "0.1.0"
+description = "Refactored AutoSlim-LLM project (multi-file)"
+requires-python = ">=3.10"
+authors = [
+  { name = "ML Researcher" }
+]
+readme = "README.md"
+
+# ----------------------------
+# Core runtime dependencies
+# ----------------------------
+dependencies = [
+  "torch>=2.1,<2.2",
+  "deepspeed==0.12.2",
+  "flash-attn>=2.5,<3.0",
+  "ray[rllib]==2.8.0",
+  "transformers>=4.37,<5",
+  "datasets>=2.14,<4",
+  "sentencepiece>=0.1.97,<0.2",
+  "matplotlib",
+  "seaborn",
+  "scikit-learn",
+  "lm-eval-harness",
+  "pyyaml",
+  "tqdm"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
