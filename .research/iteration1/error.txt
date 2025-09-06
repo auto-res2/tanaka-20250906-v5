@@ -1,0 +1,12 @@
+Downloading cpython-3.11.13-linux-x86_64-gnu (download) (27.7MiB)
+ Downloading cpython-3.11.13-linux-x86_64-gnu (download)
+Using CPython 3.11.13
+Creating virtual environment at: .venv
+  × No solution found when resolving dependencies:
+  ╰─▶ Because lm-eval-harness was not found in the package registry and your
+      project depends on lm-eval-harness, we can conclude that your project's
+      requirements are unsatisfiable.
+  × No solution found when resolving dependencies:
+  ╰─▶ Because lm-eval-harness was not found in the package registry and your
+      project depends on lm-eval-harness, we can conclude that your project's
+      requirements are unsatisfiable.
