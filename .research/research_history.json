@@ -6,5 +6,82 @@
     "効率的 LLM 最適化",
     "低精度 トレーニング",
     "LoRA ファインチューニング"
+  ],
+  "research_study_list": [
+    {
+      "title": "Stacking Your Transformers: A Closer Look at Model Growth for Efficient LLM Pre-Training"
+    },
+    {
+      "title": "CLLMs: Consistency Large Language Models"
+    },
+    {
+      "title": "VeLoRA: Memory Efficient Training using Rank-1 Sub-Token Projections"
+    },
+    {
+      "title": "Reference Trustable Decoding: A Training-Free Augmentation Paradigm for Large Language Models"
+    },
+    {
+      "title": "Efficient Training of Language Models using Few-Shot Learning"
+    },
+    {
+      "title": "The Stability-Efficiency Dilemma: Investigating Sequence Length Warmup for Training GPT Models"
+    },
+    {
+      "title": "The Stability-Efficiency Dilemma: Investigating Sequence Length Warmup for Training GPT Models"
+    },
+    {
+      "title": "Efficient Training of Language Models using Few-Shot Learning"
+    },
+    {
+      "title": "SpeedLoader: An I/O efficient scheme for heterogeneous and distributed LLM operation"
+    },
+    {
+      "title": "Dataset Decomposition: Faster LLM Training with Variable Sequence Length Curriculum"
+    },
+    {
+      "title": "SparseLLM: Towards Global Pruning of Pre-trained Language Models"
+    },
+    {
+      "title": "VeLoRA: Memory Efficient Training using Rank-1 Sub-Token Projections"
+    },
+    {
+      "title": "Revisiting Zeroth-Order Optimization for Memory-Efficient LLM Fine-Tuning: A Benchmark"
+    },
+    {
+      "title": "Search for Efficient Large Language Models"
+    },
+    {
+      "title": "QLLM: Accurate and Efficient Low-Bitwidth Quantization for Large Language Models"
+    },
+    {
+      "title": "Collage: Light-Weight Low-Precision Strategy for LLM Training"
+    },
+    {
+      "title": "CPT: Efficient Deep Neural Network Training via Cyclic Precision"
+    },
+    {
+      "title": "Not All Bits have Equal Value: Heterogeneous Precisions via Trainable Noise"
+    },
+    {
+      "title": "Optimistic Verifiable Training by Controlling Hardware Nondeterminism"
+    },
+    {
+      "title": "Towards Cheaper Inference in Deep Networks with Lower Bit-Width Accumulators"
+    },
+    {
+      "title": "DoRA: Weight-Decomposed Low-Rank Adaptation"
+    },
+    {
+      "title": "DoRA: Weight-Decomposed Low-Rank Adaptation"
+    },
+    {
+      "title": "LoRA-GA: Low-Rank Adaptation with Gradient Approximation"
+    },
+    {
+      "title": "Adaptive Budget Allocation for Parameter-Efficient Fine-Tuning "
+    },
+    {
+      "title": "Safe LoRA: The Silver Lining of Reducing Safety Risks when Finetuning Large Language Models"
+    }
   ]
 }
